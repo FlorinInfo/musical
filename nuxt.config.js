@@ -9,7 +9,12 @@ export default {
 			{ name: 'format-detection', content: 'telephone=no' }
 		]
 	},
-	css: [],
+	css: [
+		'~/assets/styles/_variables.scss'
+	],
+	styleResources: {
+		scss: ['~/assets/styles/*.scss']
+	},
 	plugins: [],
 	components: true,
 	buildModules: [
@@ -18,7 +23,8 @@ export default {
 	],
 	modules: [
 		'@nuxtjs/axios',
-		'@nuxtjs/pwa'
+		'@nuxtjs/pwa',
+		'@nuxtjs/style-resources'
 	],
 	axios: {},
 	pwa: {

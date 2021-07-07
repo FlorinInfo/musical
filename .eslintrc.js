@@ -14,6 +14,7 @@ module.exports = {
 	],
 	plugins: [],
 	rules: {
+		'eol-last': 'off',
 		'no-tabs': 'off',
 		'quote-props': ['warn', 'consistent'],
 		'indent': ['warn', 'tab'],

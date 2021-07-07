@@ -3,6 +3,7 @@ module.exports = {
 		'stylelint-config-standard'
 	],
 	rules: {
+		'no-missing-end-of-source-newline': null,
 		'indentation': ['warn', 'tab']
 	}
 };
