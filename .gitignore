@@ -1,0 +1,8 @@
+.nuxt/
+.idea/
+node_modules/
+dist/
+
+.eslintcache
+package-lock.json
+npm-debug.log
