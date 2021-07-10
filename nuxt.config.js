@@ -10,7 +10,9 @@ export default {
 		]
 	},
 	css: [
-		'~/assets/styles/_variables.scss'
+		'~/assets/styles/_variables.scss',
+		'~/assets/styles/_base.scss',
+		'~/assets/styles/_fonts.scss'
 	],
 	styleResources: {
 		scss: ['~/assets/styles/*.scss']

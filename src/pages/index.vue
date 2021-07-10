@@ -1,9 +1,5 @@
 <template>
-	<h1>Hello World!</h1>
+	<div class="app-home">
+		<AppNavbar/>
+	</div>
 </template>
-
-<style lang="scss" scoped>
-h1 {
-	color: $color-primary;
-}
-</style>
