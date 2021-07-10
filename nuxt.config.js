@@ -7,6 +7,9 @@ export default {
 			{ charset: 'utf-8' },
 			{ name: 'viewport', content: 'width=device-width, initial-scale=1' },
 			{ name: 'format-detection', content: 'telephone=no' }
+		],
+		script: [
+			{ src: 'https://unpkg.com/ionicons@5.4.0/dist/ionicons.js' },
 		]
 	},
 	css: [
